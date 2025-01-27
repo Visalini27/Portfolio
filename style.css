@@ -1,0 +1,124 @@
+body
+{
+    background: url('backport.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 2000px;
+}
+
+.info
+{
+    padding: 130px;
+    margin-left: 50px;
+    color: white;
+}
+.image
+{
+    width: 30%;
+    height: 60%;
+    position: absolute;
+    right: 80px;
+    bottom: 0;
+}
+
+.image img{
+    position: absolute;
+    height: 140%;
+    left: 50%;
+    transform: translate(-40%);
+    bottom: 0;
+    border-radius: 15px;
+}
+
+.bt
+{
+    border-radius: 25px;
+    height: 40px;
+    width: 85px;
+    border-left: 40px;
+    margin-left: 140px;
+    font-size: medium;
+    border: none;
+    cursor: pointer;
+}
+
+.abt
+{
+    padding: 30px;
+}
+
+.i1
+{
+    background-image: url('');
+    background-size: cover;
+}
+.i2
+{
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.i3
+{
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.i4
+{
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.i5
+{
+   
+    background-image: url('');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.foot
+{
+    height: 50px;
+    width: 1500px;
+    background-color: white;
+    margin-left: 10px;
+    padding: 5px;
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+  }
+  
+  
+  .flex-container > div {
+         
+    margin: 30px;
+    padding: 20px;
+    font-size: 30px;
+    height: 200px;
+    width: 300px;
+  }
+
+  hr
+  {
+    color: white;
+  }
+  h3
+  {
+    color: white;
+  }
+  .dd
+  {
+    flex: 2px; 
+    color: white;
+  }
+  .dd1
+  {
+    display: flex;
+     align-items: center; 
+     gap: 20px;
+  }
